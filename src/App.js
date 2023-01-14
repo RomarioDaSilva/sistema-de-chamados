@@ -1,10 +1,11 @@
-
+import { BrowserRouter } from 'react-router-dom';
+import RoutsApp from './routes';
 
 function App() {
   return (
-    <div>
-      <h1>teste</h1>
-    </div>
+    <BrowserRouter>
+      <RoutsApp/>
+    </BrowserRouter>
   );
 }
 
