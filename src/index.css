@@ -4,24 +4,24 @@
   box-sizing: border-box;
 }
 
-html, bory, #root{
+html, body, #root{
   height: 100%;
 }
 
-body {
-  background-color: #EFEFEF;
+body{
+  font: 14px;
   font-family: sans-serif;
   background-color: #EFEFEF;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
-ul {
+ul{
   list-style: none;
 }
 
-button {
+button{
   cursor: pointer;
 }
